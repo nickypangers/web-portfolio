@@ -1,7 +1,13 @@
 // Header
+h1,
+h2,
+h3 {
+  color: $title;
+}
+
 h2 {
   font-size: 2rem;
-  text-decoration: underline;
+  font-weight: bold;
   margin-bottom: 1.2rem;
 }
 
@@ -9,15 +15,16 @@ h3 {
   font-size: 1em;
 }
 
-@media (min-width: 992px) {
-  .section {
-    min-height: 100vh !important;
-  }
-}
+// @media (min-width: 992px) {
+//   .section {
+//     min-height: 100vh !important;
+//   }
+// }
 
 .section {
-  min-height: calc(100vh - 140px);
+  // min-height: calc(100vh - 140px);
   padding: 50px 1rem;
+  margin-bottom: 50px;
   width: 100vw;
   text-align: start;
 
@@ -35,6 +42,7 @@ h3 {
   li::before {
     content: "▹";
     margin-right: 0.5em;
+    color: $secondary;
   }
 
   li {
@@ -45,9 +53,18 @@ h3 {
 
 a {
   text-decoration: none;
-  color: green;
+  color: $secondary;
+
+  &:focus {
+    outline: none;
+    border: none;
+  }
 }
 
 .italic {
   font-style: italic;
+}
+
+.link-icon {
+  color: $text;
 }

@@ -1,5 +1,5 @@
 <template>
-  <div id="about" class="section about text-start">
+  <div id="about" class="section about container text-start">
     <h2>About Me</h2>
     <p>
       Hi! I am Nixon, and I build websites and applications for a living. My
@@ -9,9 +9,9 @@
     </p>
     <p>
       Today, I am currently a
-      <span class="highlight">Web/Mobile App Developer</span> working at a digital
-      agency based in Hong Kong, where my colleagues and I create websites and
-      mobile applications according to the client's needs.
+      <span class="highlight">Web/Mobile App Developer</span> working at a
+      digital agency based in Hong Kong, where my colleagues and I create
+      websites and mobile applications according to the client's needs.
       <span class="font-normal italic"
         >Prior to this position, I was a hardware engineer.</span
       >
@@ -41,7 +41,7 @@ export default {
 
 <style lang="scss" scoped>
 p {
-  font-weight: bold;
+  // font-weight: bold;
   font-size: 1.2rem;
 }
 

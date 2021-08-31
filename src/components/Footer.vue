@@ -1,12 +1,32 @@
 <template>
   <div
-    class="footer w-100 d-lg-none d-flex align-items-center justify-content-between p-4"
+    class="footer container d-flex flex-column justify-content-center align-items-center"
   >
-    <div>
-      <router-link :to="{ path: '/', hash: '#about' }">About</router-link>
+    <div class="w-50 d-flex justify-content-between align-items-center">
+      <a
+        href="https://www.linkedin.com/in/nixon-pang/"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="link-icon"
+        ><font-awesome-icon :icon="['fab', 'linkedin-in']"
+      /></a>
+      <a
+        href="https://stackoverflow.com/users/13772987/nickypangers"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="link-icon"
+        ><font-awesome-icon :icon="['fab', 'stack-overflow']"
+      /></a>
+      <a
+        href="https://github.com/nickypangers"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="link-icon"
+        ><font-awesome-icon :icon="['fab', 'github']"
+      /></a>
     </div>
-    <div>
-      <router-link :to="{ path: '/', hash: '#projects' }">Projects</router-link>
+    <div class="mt-4">
+      Designed and built by Nixon Pang
     </div>
   </div>
 </template>
@@ -19,12 +39,7 @@ export default {
 
 <style lang="scss" scoped>
 .footer {
-  background-color: $bg-footer;
-  color: $footer-text;
-  height: $footer-height;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  z-index: 100;
+  height: 10vh;
+  margin-bottom: 30px;
 }
 </style>

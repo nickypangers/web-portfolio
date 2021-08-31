@@ -1,6 +1,6 @@
 <template>
-  <div id="jobs" class="section jobs">
-    <h2>Where I've Worked</h2>
+  <div id="jobs" class="section jobs container">
+    <h2>Work Experience</h2>
     <div class="nav-header mt-5">
       <div
         class="nav-item"
@@ -20,7 +20,7 @@
       </div>
     </div>
     <div class="mt-5">
-      <h3>{{ selectedJob.position }} <a href="">@ {{ selectedJob.company }}</a></h3>
+      <h3>{{ selectedJob.position }} <a :href="selectedJob.url" target="_blank" rel="noopener noreferrer">@ {{ selectedJob.company }}</a></h3>
       <p class="work-period">
         {{ selectedWorkPeriod }}
       </p>

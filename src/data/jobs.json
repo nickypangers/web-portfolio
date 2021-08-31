@@ -2,6 +2,7 @@
   {
     "id": 0,
     "company": "SG Wireless",
+    "url": "https://www.sgwireless.com",
     "position": "Hardware Engineer",
     "from": {
       "month": "February",
@@ -26,6 +27,7 @@
   {
     "id": 1,
     "company": "Mosaic",
+    "url": "https://www.mosaicdigi.com",
     "position": "Web/Mobile App Developer",
     "from": {
       "month": "November",
