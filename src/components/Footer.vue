@@ -1,12 +1,12 @@
 <template>
   <div
-    class="footer w-100 d-flex align-items-center justify-content-between p-4"
+    class="footer w-100 d-lg-none d-flex align-items-center justify-content-between p-4"
   >
     <div>
       <router-link :to="{ path: '/', hash: '#about' }">About</router-link>
     </div>
     <div>
-      <router-link :to="{ path: '/', hash: '#work' }">Work</router-link>
+      <router-link :to="{ path: '/', hash: '#projects' }">Projects</router-link>
     </div>
   </div>
 </template>

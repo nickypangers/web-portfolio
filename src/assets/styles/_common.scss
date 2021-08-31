@@ -1,0 +1,53 @@
+// Header
+h2 {
+  font-size: 2rem;
+  text-decoration: underline;
+  margin-bottom: 1.2rem;
+}
+
+h3 {
+  font-size: 1em;
+}
+
+@media (min-width: 992px) {
+  .section {
+    min-height: 100vh !important;
+  }
+}
+
+.section {
+  min-height: calc(100vh - 140px);
+  padding: 50px 1rem;
+  width: 100vw;
+  text-align: start;
+
+  &.no-padding {
+    padding: 0;
+  }
+}
+
+.custom-list {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 1em;
+  text-indent: -1em;
+
+  li::before {
+    content: "▹";
+    margin-right: 0.5em;
+  }
+
+  li {
+    text-align: start;
+    margin-bottom: 0.5em;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: green;
+}
+
+.italic {
+  font-style: italic;
+}

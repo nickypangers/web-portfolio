@@ -5,9 +5,6 @@
     <div class="text-start">
       <h1>Nixon Pang</h1>
       <p>Web / App Developer</p>
-      <router-link :to="{ path: '/', hash: '#about' }"
-        ><button>Test</button></router-link
-      >
     </div>
   </div>
 </template>

@@ -37,7 +37,6 @@ export default {
     };
 
     onMounted(() => {
-      console.log("mounted");
       window.addEventListener("scroll", onScroll);
     });
 

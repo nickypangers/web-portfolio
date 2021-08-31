@@ -1,0 +1,46 @@
+[
+  {
+    "id": 0,
+    "company": "SG Wireless",
+    "position": "Hardware Engineer",
+    "from": {
+      "month": "February",
+      "year": 2020
+    },
+    "to": {
+      "month": "October",
+      "year": 2020
+    },
+    "tasks": [
+      {
+        "description": "IoT hardware development on LoRa, Bluetooth Low Energy, WiFi 6 and NFC"
+      },
+      {
+        "description": "Native and cross-platform mobile application development using Java and Flutter"
+      },
+      {
+        "description": "Developing test programs using C, C#, Golang and LabView"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "company": "Mosaic",
+    "position": "Web/Mobile App Developer",
+    "from": {
+      "month": "November",
+      "year": 2020
+    },
+    "tasks": [
+      {
+        "description": "Develop websites (frontend and CMS) and mobile applications according to client's specifications and wireframes"
+      },
+      {
+        "description": "Work with a wide range of different languages, platforms and frameworks such as Bootstrap, CodeIgniter, Vue and Flutter"
+      },
+      {
+        "description": "Clients included King Fook Jewellery, Ayes, Walk Duck and more"
+      }
+    ]
+  }
+]

@@ -8,10 +8,10 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@glidejs/glide": "^3.4.1",
     "@popperjs/core": "^2.9.3",
     "bootstrap": "^5.1.0",
     "core-js": "^3.6.5",
-    "rellax": "^1.12.1",
     "vue": "^3.0.0",
     "vue-router": "^4.0.0-0"
   },

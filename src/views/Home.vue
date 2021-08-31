@@ -2,21 +2,24 @@
   <div class="home">
     <Banner />
     <About />
-    <Work />
+    <Jobs />
+    <Projects />
   </div>
 </template>
 
 <script>
 import Banner from "@/components/Banner.vue";
 import About from "@/components/About.vue";
-import Work from "@/components/Work.vue";
+import Jobs from "@/components/Jobs.vue";
+import Projects from "@/components/Projects.vue";
 
 export default {
   name: "Home",
   components: {
     Banner,
     About,
-    Work,
+    Jobs,
+    Projects,
   },
 };
 </script>

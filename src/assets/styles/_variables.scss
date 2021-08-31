@@ -4,7 +4,7 @@ $footer-text: #734da3;
 
 $footer-height: 140px;
 
-.section {
-  height: calc(100vh - 140px);
-  padding: 1rem;
-}
+$inactive: #c7c7c7;
+$active: #000000;
+
+$border-height: 2px;
