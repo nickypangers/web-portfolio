@@ -18,9 +18,12 @@
       alt="server icon"
       v-if="backend"
     />
-    <p class="font-extrabold text-2xl mb-6">{{ skill.title }}</p>
-    <div>
-      <p class="text-primary mb-6">Languages that I speak:</p>
+    <p class="font-extrabold text-2xl lg:text-3xl mb-6">{{ skill.title }}</p>
+    <div class="mb-6">
+      <p>{{ skill.description }}</p>
+    </div>
+    <div class="mb-6">
+      <p class="text-primary mb-6">{{ language }} that I use:</p>
       <p class="">{{ languageList }}</p>
     </div>
   </div>
@@ -47,10 +50,22 @@ export default {
     },
   },
   setup(props) {
-    const languageList = computed(() => props.skill.languages.join());
+    const languageList = computed(() => {
+      let array = props.skill.languages;
+      let sortedArray = array.sort();
+      return sortedArray.join(", ");
+    });
+
+    const language = computed(() => {
+      if (props.skill.languages.length > 1) {
+        return "Languages";
+      }
+      return "Language";
+    });
 
     return {
       languageList,
+      language,
     };
   },
 };
@@ -58,7 +73,7 @@ export default {
 
 <style scoped>
 .skill-column {
-  height: 1200px;
+  min-height: fit-content;
 }
 
 .skill-icon {
