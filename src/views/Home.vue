@@ -1,12 +1,18 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
+    <Hero />
+    <SkillSection />
   </div>
 </template>
 
 <script>
+import Hero from "@/components/Hero";
+import SkillSection from "@/components/SkillSection";
 export default {
   name: "Home",
-  components: {},
+  components: {
+    Hero,
+    SkillSection,
+  },
 };
 </script>
