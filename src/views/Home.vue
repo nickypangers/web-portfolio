@@ -1,18 +1,21 @@
 <template>
   <div class="home">
     <Hero />
-    <PortfolioSection />
+    <About />
+    <Portfolio />
   </div>
 </template>
 
 <script>
 import Hero from "@/components/Hero";
-import PortfolioSection from "@/components/Portfolio";
+import About from "@/components/About";
+import Portfolio from "@/components/Portfolio";
 export default {
   name: "Home",
   components: {
     Hero,
-    PortfolioSection,
+    About,
+    Portfolio,
   },
 };
 </script>

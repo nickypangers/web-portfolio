@@ -1,5 +1,5 @@
 <template>
-  <section id="hero-bottom">
+  <section id="about">
     <div class="bg-primary">
       <div class="container flex justify-center items-center py-28">
         <div class="w-full lg:w-1/2 mx-6 lg:mx-0 text-center text-white">
