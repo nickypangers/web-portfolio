@@ -1,6 +1,8 @@
 <template>
-  <HeroTop />
-  <HeroBottom />
+  <section id="hero">
+    <HeroTop />
+    <HeroBottom />
+  </section>
 </template>
 
 <script>

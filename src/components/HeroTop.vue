@@ -8,21 +8,24 @@
           px-3
           lg:px-0
           flex flex-col
+          md:flex-row
           justify-center
+          md:justify-start
           items-center
         "
       >
-        <p class="hero-header font-extrabold text-5xl text-center mb-6">
-          Full Stack Developer
-        </p>
-        <p
-          class="hero-subtitle text-center font-light text-2xl lg:text-3xl mb-6"
-        >
-          I create amazing things on the internet for a living and I love what I
-          do.
-        </p>
         <div class="hero-avatar my-8">
           <img alt="Avatar" src="../assets/svg/avatar.svg" />
+        </div>
+        <div class="hero-header text-center md:text-left ml-6">
+          <p class="font-extrabold text-5xl mb-6">Hello, I am Nixon.</p>
+          <p class="hero-subtitle font-light text-xl lg:text-2xl mb-6">
+            I create amazing things on the internet for a living and I love what
+            I do.
+          </p>
+          <p class="mb-6">
+            Currently a Web/Mobile Application Developer based in Hong Kong.
+          </p>
         </div>
       </div>
     </div>
