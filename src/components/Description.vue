@@ -14,10 +14,9 @@
             wireframes and client's ideas into reality.
           </p>
           <p class="font-extralight text-xl mb-6">
-            While I have the right to work in both Canada and Hong Kong, and I'm
+            While I have the right to work in both Canada and Hong Kong, I'm
             open to relocation on a global level should an opportunity arises.
           </p>
-          <p class="font-extralight text-xl">Linkedin</p>
         </div>
       </div>
     </div>

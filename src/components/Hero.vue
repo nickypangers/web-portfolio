@@ -4,19 +4,17 @@
       <div
         class="
           container
-          py-20
+          py-24
           px-3
           lg:px-0
           flex flex-col
           md:flex-row
           justify-center
-          md:justify-start
           items-center
         "
       >
         <div class="hero-avatar my-8">
           <img alt="Avatar" src="../assets/images/avatar.png" />
-          <!-- <img alt="Avatar" src="../assets/svg/avatar.svg" /> -->
         </div>
         <div class="hero-header text-center md:text-left ml-0 md:ml-6">
           <p class="font-extrabold text-6xl md:text-8xl mb-6 title">

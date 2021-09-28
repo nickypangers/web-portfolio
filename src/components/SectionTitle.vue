@@ -2,19 +2,19 @@
   <div class="flex items-center h-24 mb-6">
     <div
       class="w-24 h-24 border rounded-3xl p-2 h-full shadow"
-      v-if="imagePath"
+      v-if="imageName"
     >
       <div class="h-full w-full rounded-2xl icon-box">
         <img
           class="h-full w-full"
-          :src="require(`../assets/images/${imagePath}.png`)"
+          :src="require(`../assets/images/${imageName}.png`)"
           alt="thinking"
         />
       </div>
     </div>
     <p
       class="font-extrabold text-4xl md:text-5xl gradient-text"
-      :class="{ 'ml-6': imagePath }"
+      :class="{ 'ml-6': imageName }"
     >
       {{ title }}
     </p>
@@ -24,7 +24,7 @@
 <script>
 export default {
   props: {
-    imagePath: {
+    imageName: {
       type: String,
       default: "",
     },

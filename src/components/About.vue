@@ -3,7 +3,7 @@
     <div class="bg-white">
       <div class="container flex justify-center items-center pt-24">
         <div class="w-full lg:w-1/2 mx-6 md:mx-0 text-black">
-          <SectionTitle image-path="thinking" title="Who Am I?" />
+          <SectionTitle image-name="thinking" title="Who Am I?" />
           <p class="font-extralight text-xl mb-6">
             I was born in Hong Kong and can speak fluent
             <span class="font-extrabold">Cantonese</span>,
