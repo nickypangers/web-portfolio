@@ -10,8 +10,8 @@
           </p>
           <p>
             I am currently working as a Web/Mobile Application developer at a
-            digital agency based in Hong Kong. My tasks include turning design
-            wireframes and client's ideas into reality.
+            digital agency based in Hong Kong. My day to day tasks include
+            turning design wireframes and client's ideas into reality.
           </p>
           <p>
             While I have the right to work in both Canada and Hong Kong, I'm
