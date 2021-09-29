@@ -8,17 +8,48 @@
             experience in creating websites and mobile applications for both
             Android and iOS.
           </p>
-          <p class="font-extralight text-xl mb-6">
+          <p>
             I am currently working as a Web/Mobile Application developer at a
             digital agency based in Hong Kong. My tasks include turning design
             wireframes and client's ideas into reality.
           </p>
-          <p class="font-extralight text-xl mb-6">
+          <p>
             While I have the right to work in both Canada and Hong Kong, I'm
             open to relocation on a global level should an opportunity arises.
+          </p>
+          <p>
+            I am always active on
+            <a
+              href="https://www.linkedin.com/in/nixon-pang/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >LinkedIn</a
+            >, updating my personal projects on
+            <a
+              href="https://github.com/nickypangers"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Github</a
+            >, and occasionally replying to questions on
+            <a
+              href="https://stackoverflow.com/users/13772987/nickypangers"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Stack Overflow</a
+            >.
           </p>
         </div>
       </div>
     </div>
   </section>
 </template>
+
+<style scoped>
+p {
+  @apply font-extralight text-xl mb-6;
+}
+
+a {
+  @apply text-blue-600 hover:underline;
+}
+</style>
