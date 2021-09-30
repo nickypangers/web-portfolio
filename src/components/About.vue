@@ -1,7 +1,7 @@
 <template>
   <section id="about">
     <div class="overflow-hidden">
-      <div data-aos="fade-up" data-aos-delay="150">
+      <div data-aos="fade-up" data-aos-delay="300">
         <div class="bg-white">
           <div class="container-box">
             <div class="container-content">

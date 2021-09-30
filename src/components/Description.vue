@@ -15,22 +15,23 @@
           </p>
           <p>
             While I have the right to work in both Canada and Hong Kong, I'm
-            open to relocation on a global level should an opportunity arises.
+            open to relocation on a global level should the opportunity arise.
           </p>
           <p>
-            I am always active on
+            I am active on
             <a
               href="https://www.linkedin.com/in/nixon-pang/"
               target="_blank"
               rel="noopener noreferrer"
               >LinkedIn</a
-            >, updating my personal projects on
+            >
+            and regularly updating my personal projects on
             <a
               href="https://github.com/nickypangers"
               target="_blank"
               rel="noopener noreferrer"
               >Github</a
-            >, and occasionally replying to questions on
+            >I also occasionally reply to questions on
             <a
               href="https://stackoverflow.com/users/13772987/nickypangers"
               target="_blank"
