@@ -31,7 +31,7 @@
               target="_blank"
               rel="noopener noreferrer"
               >Github</a
-            >I also occasionally reply to questions on
+            >. I also occasionally reply to questions on
             <a
               href="https://stackoverflow.com/users/13772987/nickypangers"
               target="_blank"
