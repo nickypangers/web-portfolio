@@ -7,12 +7,46 @@
             <div class="container-content">
               <section-title title="Contact" />
               <p>
-                Feel free to contact me at
-                <a href="mailto:nixon@nickypangers.com"
-                  >nixon@nickypangers.com</a
-                >
-                below if you have any enquiries, or just say hello!
+                Feel free to contact me if you have any enquiries, or just to
+                say hello!
               </p>
+              <div class="flex justify-around">
+                <a href="mailto:nixon@nickypangers.com">
+                  <button class="text-black">
+                    <span>
+                      <font-awesome-icon
+                        :icon="['far', 'envelope']"
+                        size="2x"
+                      />
+                    </span>
+                  </button>
+                </a>
+                <a
+                  href="https://www.instagram.com/nickypangers/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button class="text-black">
+                    <span>
+                      <font-awesome-icon
+                        :icon="['fab', 'instagram']"
+                        size="2x"
+                      />
+                    </span>
+                  </button>
+                </a>
+                <a
+                  href="https://twitter.com/nickypangers"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button class="text-black">
+                    <span>
+                      <font-awesome-icon :icon="['fab', 'twitter']" size="2x" />
+                    </span>
+                  </button>
+                </a>
+              </div>
             </div>
           </div>
         </div>
