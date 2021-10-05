@@ -6,14 +6,8 @@
         <Description />
       </div>
     </div>
-    <!-- <div class="overflow-hidden">
-      <div data-aos="fade-up">
-        <Description />
-      </div>
-    </div> -->
     <About />
     <Skills />
-    <!-- <Portfolio /> -->
     <Contact />
   </div>
 </template>

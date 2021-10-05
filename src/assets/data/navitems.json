@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "name": "Home",
+      "route": "/"
+    },
+    {
+      "name": "Work",
+      "route": "/work"
+    },
+    {
+      "name": "More",
+      "route": "/more"
+    }
+  ]
+}
