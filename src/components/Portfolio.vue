@@ -3,8 +3,8 @@
     <div class="overflow-hidden">
       <div data-aos="fade-up">
         <div class="bg-white">
-          <div class="container-box">
-            <div class="container-content">
+          <div class="content-box">
+            <div class="content-area">
               <section-title image-name="computer" title="Testing" />
             </div>
           </div>

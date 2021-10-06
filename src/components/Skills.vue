@@ -3,8 +3,8 @@
     <div class="overflow-hidden">
       <div data-aos="fade-up" data-aos-delay="300">
         <div class="bg-white">
-          <div class="container-box">
-            <div class="container-content">
+          <div class="content-box">
+            <div class="content-area">
               <section-title image-name="computer" title="My Tech Stack" />
               <p>
                 I use variety of technologies for both work and personally, and

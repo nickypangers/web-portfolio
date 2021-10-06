@@ -4,19 +4,11 @@
       <div class="h-28 flex justify-between items-center p-8">
         <p>Hello</p>
         <ul class="flex">
-          <!-- <li class="mr-8">Home</li>
-          <li class="mr-8">Work</li>
-          <li>More</li> -->
-          <router-link
+          <nav-button
             v-for="(navItem, index) in navItemList.items"
             :key="'navItem-' + index"
-            :to="navItem.route"
-            :class="{ 'mr-8': !isLastNavItem(index) }"
-          >
-            <li>
-              {{ navItem.name }}
-            </li>
-          </router-link>
+            :nav-item="navItem"
+          ></nav-button>
         </ul>
       </div>
     </div>
@@ -24,11 +16,15 @@
 </template>
 
 <script>
+import NavButton from "@/components/NavButton";
 import { onMounted } from "vue";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import navItemList from "@/assets/data/navitems.json";
 export default {
+  components: {
+    NavButton,
+  },
   setup() {
     const isLastNavItem = (index) => {
       if (index == navItemList.items.length - 1) {

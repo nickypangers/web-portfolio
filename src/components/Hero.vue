@@ -3,7 +3,6 @@
     <div class="bg-white">
       <div
         class="
-          container
           py-24
           px-3
           lg:px-0

@@ -1,0 +1,44 @@
+{
+  "works": [
+    {
+      "name": "Ayes HK",
+      "link": "https://www.ayeshk.com",
+      "image": {
+        "isLocal": false,
+        "link": "https://www.kingfook.com/img/common/logo4.png",
+        "alt": "Ayes Logo",
+        "objectFit": "object-contain"
+      }
+    },
+    {
+      "name": "King Fook Jewellery",
+      "link": "https://www.kingfook.com",
+      "image": {
+        "isLocal": false,
+        "link": "https://www.kingfook.com/img/common/logo4.png",
+        "alt": "Ayes Logo",
+        "objectFit": "object-contain"
+      }
+    },
+    {
+      "name": "Personal Website",
+      "link": "https://www.nickypangers.com",
+      "image": {
+        "isLocal": false,
+        "link": "https://www.kingfook.com/img/common/logo4.png",
+        "alt": "Ayes Logo",
+        "objectFit": "object-contain"
+      }
+    },
+    {
+      "name": "Visa Checker",
+      "link": "#",
+      "image": {
+        "isLocal": true,
+        "link": "Icon-512.png",
+        "alt": "Visa Checker Logo",
+        "objectFit": "object-contain"
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+<template>
+  <div class="container">
+    <page-hero
+      route="work"
+      subtitle="Below are projects I'm working on currently or worked on in the past."
+    />
+    <section id="work">
+      <div
+        class="
+          grid grid-cols-1
+          gap-5
+          md:grid-cols-2
+          lg:grid-cols-3
+          px-4
+          lg:px-0
+        "
+      >
+        <WorkTile
+          v-for="(work, index) in workList"
+          :key="'work-' + index"
+          :work="work"
+        />
+      </div>
+    </section>
+  </div>
+</template>
+<script>
+import PageHero from "@/components/PageHero";
+import WorkTile from "@/components/WorkTile";
+import data from "@/assets/data/works.json";
+export default {
+  components: {
+    PageHero,
+    WorkTile,
+  },
+  setup() {
+    const workList = data.works;
+    return {
+      workList,
+    };
+  },
+};
+</script>

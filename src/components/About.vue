@@ -3,8 +3,8 @@
     <div class="overflow-hidden">
       <div data-aos="fade-up" data-aos-delay="300">
         <div class="bg-white">
-          <div class="container-box">
-            <div class="container-content">
+          <div class="content-box">
+            <div class="content-area">
               <section-title image-name="thinking" title="Who Am I?" />
               <p>
                 I was born in Hong Kong and can speak fluent

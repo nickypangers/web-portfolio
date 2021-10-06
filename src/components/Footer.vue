@@ -2,7 +2,7 @@
   <div id="footer">
     <div class="bg-white border-t mt-12">
       <div class="container flex justify-center items-center py-12">
-        <div class="container-content text-center">
+        <div class="content-area text-center">
           <p class="footer-text">
             &copy; {{ year }} &nbsp;&nbsp; Build by Nixon Pang
           </p>

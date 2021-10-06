@@ -1,15 +1,15 @@
 {
   "items": [
     {
-      "name": "Home",
+      "name": "/home",
       "route": "/"
     },
     {
-      "name": "Work",
+      "name": "/work",
       "route": "/work"
     },
     {
-      "name": "More",
+      "name": "/more",
       "route": "/more"
     }
   ]

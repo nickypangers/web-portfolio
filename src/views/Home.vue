@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="container">
     <div class="overflow-hidden">
       <div data-aos="zoom-in" data-aos-duration="800">
         <Hero />
@@ -20,7 +20,6 @@ import Hero from "@/components/Hero";
 import Description from "@/components/Description";
 import About from "@/components/About";
 import Skills from "@/components/Skills";
-// import Portfolio from "@/components/Portfolio";
 import Contact from "@/components/Contact";
 export default {
   name: "Home",
@@ -29,7 +28,6 @@ export default {
     About,
     Description,
     Skills,
-    // Portfolio,
     Contact,
   },
   setup() {
