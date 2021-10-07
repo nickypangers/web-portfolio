@@ -1,19 +1,29 @@
 <template>
-  <Header />
+  <Header v-if="currentPath != '/resume'" />
   <!-- <div>hi</div> -->
   <router-view />
-  <Footer />
+  <Footer v-if="currentPath != '/resume'" />
 </template>
 
 <script>
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import { computed } from "vue";
+import { useRoute } from "vue-router";
 export default {
   components: {
     Header,
     Footer,
   },
-  setup() {},
+  setup() {
+    const route = useRoute();
+
+    const currentPath = computed(() => route.path);
+
+    return {
+      currentPath,
+    };
+  },
 };
 </script>
 

@@ -1,0 +1,18 @@
+{
+  "experiences": [
+    {
+      "company": "Mosaic",
+      "position": "Web/Mobile Application Developer",
+      "period": "Nov 2020 - Present",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde non iusto officia esse eligendi qui quisquam molestias hic asperiores ad quidem, dolorem recusandae animi enim necessitatibus? Harum dignissimos magnam natus dolorum alias ad reprehenderit ex minima fugiat error esse, asperiores facilis maxime soluta deleniti id impedit nostrum omnis cumque dolores.",
+      "points": ["testing", "testing2"]
+    },
+    {
+      "company": "Mosaic",
+      "position": "Web/Mobile Application Developer",
+      "period": "Nov 2020 - Present",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde non iusto officia esse eligendi qui quisquam molestias hic asperiores ad quidem, dolorem recusandae animi enim necessitatibus? Harum dignissimos magnam natus dolorum alias ad reprehenderit ex minima fugiat error esse, asperiores facilis maxime soluta deleniti id impedit nostrum omnis cumque dolores.",
+      "points": []
+    }
+  ]
+}

@@ -3,6 +3,7 @@ import Home from "../views/Home.vue";
 import PageNotFound from "../views/PageNotFound.vue";
 import Work from "../views/Work.vue";
 import WorkDetail from "../views/WorkDetail.vue";
+import Resume from "../views/Resume.vue";
 
 const routes = [
   {
@@ -19,6 +20,11 @@ const routes = [
     path: "/work/:work",
     name: "WorkDetail",
     component: WorkDetail,
+  },
+  {
+    path: "/resume",
+    name: "Resume",
+    component: Resume,
   },
   {
     path: "/:pathMatch(.*)",

@@ -22,7 +22,7 @@
         "alt": "Ayes Logo",
         "objectFit": "object-contain"
       },
-      "isDisplay": false
+      "isDisplay": true
     },
     {
       "name": "Walk Duck",

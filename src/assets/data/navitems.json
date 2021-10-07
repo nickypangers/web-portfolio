@@ -9,8 +9,8 @@
       "route": "/work"
     },
     {
-      "name": "/more",
-      "route": "/more"
+      "name": "/resume",
+      "route": "/resume"
     }
   ]
 }
