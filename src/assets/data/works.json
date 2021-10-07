@@ -2,43 +2,63 @@
   "works": [
     {
       "name": "Ayes HK",
-      "link": "https://www.ayeshk.com",
+      "displayLink": "https://www.ayeshk.com",
+      "link": "/work/ayeshk",
       "image": {
-        "isLocal": false,
-        "link": "https://www.kingfook.com/img/common/logo4.png",
+        "isLocal": true,
+        "link": "svg/ayes-logo.svg",
         "alt": "Ayes Logo",
         "objectFit": "object-contain"
-      }
+      },
+      "isDisplay": true
     },
     {
       "name": "King Fook Jewellery",
-      "link": "https://www.kingfook.com",
+      "displayLink": "https://www.kingfook.com",
+      "link": "/work/kingfook",
       "image": {
         "isLocal": false,
         "link": "https://www.kingfook.com/img/common/logo4.png",
         "alt": "Ayes Logo",
         "objectFit": "object-contain"
-      }
+      },
+      "isDisplay": false
+    },
+    {
+      "name": "Walk Duck",
+      "displayLink": "https://www.walkduckgroup.com",
+      "link": "/work/walkduck",
+      "image": {
+        "isLocal": false,
+        "link": "https://static.wixstatic.com/media/57b633_3ba53b46b290446a92a7e51b1e889763~mv2.png/v1/crop/x_58,y_422,w_1057,h_324/fill/w_476,h_146,al_c,q_85,usm_0.66_1.00_0.01/57b633_3ba53b46b290446a92a7e51b1e889763~mv2.webp",
+        "alt": "Visa Checker Logo",
+        "objectFit": "object-contain"
+      },
+      "isDisplay": true
     },
     {
       "name": "Personal Website",
-      "link": "https://www.nickypangers.com",
+      "displayLink": "https://www.nickypangers.com",
+      "link": "/work/personal",
       "image": {
         "isLocal": false,
         "link": "https://www.kingfook.com/img/common/logo4.png",
         "alt": "Ayes Logo",
         "objectFit": "object-contain"
-      }
+      },
+      "isDisplay": true
     },
     {
       "name": "Visa Checker",
-      "link": "#",
+      "displayLink": "https://www.nickypangers.com",
+      "link": "/work/visachecker",
       "image": {
         "isLocal": true,
-        "link": "Icon-512.png",
+        "link": "images/Icon-512.png",
         "alt": "Visa Checker Logo",
         "objectFit": "object-contain"
-      }
+      },
+      "isDisplay": true
     }
   ]
 }

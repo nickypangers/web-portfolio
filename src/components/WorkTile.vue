@@ -6,7 +6,7 @@
         shadow-lg
         rounded-xl
         transform
-        hover:-translate-y-1.5
+        hover:-translate-y-2.5
         ease-in-out
         duration-150
       "
@@ -14,12 +14,13 @@
       <div
         class="
           image-wrapper
-          p-6
+          p-4
           rounded-t-xl
           h-2/3
           flex
           justify-center
           items-center
+          bg-gray-300
         "
       >
         <img
@@ -31,7 +32,6 @@
       </div>
       <div
         class="
-          bg-gray-200
           h-1/3
           px-6
           py-10
@@ -42,8 +42,8 @@
           items-start
         "
       >
-        <p class="font-bold">{{ work.name }}</p>
-        <p class="text-blue-600">{{ work.link }}</p>
+        <p class="font-bold mb-3">{{ work.name }}</p>
+        <p class="text-blue-600 text-lg">{{ work.displayLink }}</p>
       </div>
     </div>
   </a>
@@ -55,16 +55,9 @@ export default {
     work: Object,
   },
   setup(props) {
-    // const getImageSrc = () => {
-    //   if (props.work.image.isLocal) {
-    //     return `../assets/images/${props.work.image.link}`;
-    //   }
-    //   return props.work.image.link;
-    // };
-
     const getImageSrc = () =>
       props.work.image.isLocal
-        ? require(`../assets/images/${props.work.image.link}`)
+        ? require(`../assets/${props.work.image.link}`)
         : props.work.image.link;
 
     onMounted(() => {
