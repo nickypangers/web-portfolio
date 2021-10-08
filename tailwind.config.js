@@ -5,6 +5,9 @@ module.exports = {
     extend: {
       colors: {
         primary: "#084ebf",
+        resume: "#E7E8EF",
+        resumeheading: "#084C61",
+        resumetext: "#474747",
       },
     },
     container: {

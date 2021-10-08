@@ -12,7 +12,10 @@
       "
     >
       <p>
-        <span class="font-bold">{{ experience.company }}</span> —
+        <span class="font-bold text-resumeheading">{{
+          experience.company
+        }}</span>
+        —
         {{ experience.position }}
       </p>
       <p class="text-sm">{{ experience.period }}</p>
