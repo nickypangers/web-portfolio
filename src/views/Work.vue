@@ -1,7 +1,7 @@
 <template>
   <div class="overflow-hidden">
     <div data-aos="fade-up" data-aos-duration="800">
-      <div class="container">
+      <div class="container pb-8">
         <page-hero
           route="work"
           subtitle="Below are projects I'm working on currently or worked on in the past."

@@ -31,7 +31,7 @@
       </div>
     </aside>
     <div class="w-auto lg:mr-20 grid grid-cols-2 gap-4 lg:block lg:mb-0 mb-4">
-      <div class="w-full lg:mb-6 hidden lg:block">
+      <div class="w-full lg:mb-6">
         <p class="mb-1 font-bold text-resumeheading">nickypangers.com</p>
         <p class="mb-1">Hong Kong</p>
         <a href="mailto:nixon@nickypangers.com"
@@ -44,11 +44,6 @@
         v-if="config.coreTechnologies"
       />
       <List title="Others" :list="resumeData.others" v-if="config.others" />
-      <Education
-        title="Education"
-        :education="resumeData.education"
-        v-if="config.education"
-      />
     </div>
     <div class="w-full mt-5 lg:mt-0 col-span-2 divide-y divide-black">
       <section id="introduction">
@@ -64,7 +59,7 @@
         </div>
       </section>
       <section id="experiences">
-        <div>
+        <div class="pt-8">
           <Experience
             v-for="(experience, index) in resumeData.experiences"
             :key="'experience-' + index"
@@ -72,7 +67,12 @@
           />
         </div>
       </section>
-      <Projects />
+      <section id="education" v-if="config.education">
+        <Education title="Education" :education="resumeData.education" />
+      </section>
+      <section id="projects">
+        <Projects />
+      </section>
     </div>
   </main>
 </template>

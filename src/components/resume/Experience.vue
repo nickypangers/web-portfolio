@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full py-8">
+  <div class="w-full pb-8">
     <div
       class="
         mb-4
