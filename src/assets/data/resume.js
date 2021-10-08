@@ -7,6 +7,7 @@ let coreTechnologies = [
   "CSS",
   "SQL",
   "Flutter",
+  "SCSS",
 ];
 let others = ["Responsive Website Design", "SEO", "Performance Optimization"];
 
