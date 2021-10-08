@@ -2,13 +2,14 @@
   <div class="overflow-hidden">
     <div data-aos="fade-down" data-aos-duration="800">
       <div class="h-28 flex justify-between items-center p-8">
-        <p>Hello</p>
+        <p></p>
         <ul class="flex">
-          <nav-button
+          <template
             v-for="(navItem, index) in navItemList.items"
             :key="'navItem-' + index"
-            :nav-item="navItem"
-          ></nav-button>
+          >
+            <NavButton :nav-item="navItem" v-if="navItem.display" />
+          </template>
         </ul>
       </div>
     </div>

@@ -1,6 +1,31 @@
+let coreTechnologies = [
+  "Javascript",
+  "Vue.js",
+  "PHP",
+  "Go",
+  "HTML",
+  "CSS",
+  "SQL",
+];
+let others = ["Responsive Website Design", "SEO", "Performance Optimization"];
+
+let education = {
+  name: "University of Leeds",
+  location: "Leeds, UK",
+  degree: "BEng Electronic and Electrical Engineering",
+  period: "September 2016 - July 2019",
+};
+
 export const resumeData = {
-  coreTechnologies: ["Javascript", "Vue.js", "PHP", "Go"],
-  others: ["Javascript", "Vue.js", "PHP", "Go"],
+  config: {
+    coreTechnologies: true,
+    others: false,
+    education: true,
+    experiences: true,
+  },
+  coreTechnologies: coreTechnologies.sort(),
+  others: others.sort(),
+  education: education,
   experiences: [
     {
       company: "Mosaic",

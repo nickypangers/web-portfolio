@@ -2,15 +2,18 @@
   "items": [
     {
       "name": "/home",
-      "route": "/"
+      "route": "/",
+      "display": true
     },
     {
       "name": "/work",
-      "route": "/work"
+      "route": "/work",
+      "display": false
     },
     {
       "name": "/resume",
-      "route": "/resume"
+      "route": "/resume",
+      "display": true
     }
   ]
 }

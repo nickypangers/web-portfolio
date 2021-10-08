@@ -5,15 +5,10 @@
 }
 
 .resume-list {
-  @apply lg:ml-5;
+  @apply ml-5;
+  list-style-type: square;
 }
 
 .resume-list>li {
   @apply mb-1.5;
-}
-
-@media (min-width: 1024px) {
-  .resume-list {
-    list-style-type: square;
-  }
 }

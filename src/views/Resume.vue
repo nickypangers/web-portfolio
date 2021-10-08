@@ -1,6 +1,6 @@
 <template>
   <main tabindex="-1">
-    <aside class="links lg:block hidden absolute top-16 right-8">
+    <aside class="links lg:block hidden absolute top-16 right-16">
       <div class="flex align-center">
         <div class="mr-8">
           <a
@@ -14,44 +14,41 @@
           </a>
         </div>
         <div>
-          <button>
-            <p>
-              <span>
-                <font-awesome-icon :icon="['fas', 'file-download']" size="lg" />
-              </span>
-              &nbsp;Download
-            </p>
-          </button>
+          <a :href="pdfLink" download>
+            <button>
+              <p>
+                <span>
+                  <font-awesome-icon
+                    :icon="['fas', 'file-download']"
+                    size="lg"
+                  />
+                </span>
+                &nbsp;Download
+              </p>
+            </button>
+          </a>
         </div>
       </div>
     </aside>
-    <div class="w-auto lg:mr-20 flex lg:flex-col flex-row">
+    <div class="w-auto lg:mr-20 grid grid-cols-2 gap-4 lg:block lg:mb-0 mb-4">
       <div class="w-full lg:mb-6 hidden lg:block">
         <p class="mb-1 font-bold text-resumeheading">nickypangers.com</p>
         <p class="mb-1">Hong Kong</p>
-        <p class="font-bold text-resumeheading">nixon@nickypangers.com</p>
+        <a href="mailto:nixon@nickypangers.com"
+          ><p class="font-bold text-resumeheading">nixon@nickypangers.com</p></a
+        >
       </div>
-      <div class="w-full lg:mb-6">
-        <h3 class="font-bold text-lg text-resumeheading">Core Technologies:</h3>
-        <ul class="resume-list lg:block hidden">
-          <li
-            v-for="(tech, index) in resumeData.coreTechnologies"
-            :key="'tech-' + index"
-          >
-            {{ tech }}
-          </li>
-        </ul>
-        <p class="lg:hidden block">{{ coreTechnolgiesList }}</p>
-      </div>
-      <div class="w-full">
-        <h3 class="font-bold text-lg text-resumeheading">Others:</h3>
-        <ul class="resume-list lg:block hidden">
-          <li v-for="(tech, index) in resumeData.others" :key="'tech-' + index">
-            {{ tech }}
-          </li>
-        </ul>
-        <p class="lg:hidden block">{{ othersList }}</p>
-      </div>
+      <List
+        title="Core Technologies"
+        :list="resumeData.coreTechnologies"
+        v-if="config.coreTechnologies"
+      />
+      <List title="Others" :list="resumeData.others" v-if="config.others" />
+      <Education
+        title="Education"
+        :education="resumeData.education"
+        v-if="config.education"
+      />
     </div>
     <div class="w-full mt-5 lg:mt-0 col-span-2 divide-y divide-black">
       <section id="introduction">
@@ -85,12 +82,18 @@ import { computed } from "vue";
 import { resumeData } from "@/assets/data/resume.js";
 import Experience from "@/components/resume/Experience";
 import Projects from "@/components/resume/Projects";
+import List from "@/components/resume/List";
+import Education from "@/components/resume/Education";
 export default {
   components: {
     Experience,
     Projects,
+    List,
+    Education,
   },
   setup() {
+    const config = resumeData.config;
+
     const coreTechnolgiesList = computed(() =>
       resumeData.coreTechnologies.join(", ")
     );
@@ -101,6 +104,7 @@ export default {
       resumeData,
       coreTechnolgiesList,
       othersList,
+      config,
     };
   },
 };
