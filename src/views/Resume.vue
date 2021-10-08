@@ -1,6 +1,6 @@
 <template>
   <main tabindex="-1">
-    <aside class="links lg:block hidden absolute top-16 right-16">
+    <aside class="links absolute top-16 lg:right-16 right-8">
       <div class="flex align-center">
         <div class="mr-8">
           <a
@@ -112,6 +112,6 @@ export default {
 
 <style scoped>
 main {
-  @apply bg-resume lg:mx-20 lg:my-16 px-16 py-16 lg:py-32 pb-10 w-auto h-auto flex lg:flex-row flex-col text-resumetext relative;
+  @apply bg-resume lg:mx-20 lg:my-16 px-8 pt-32 pb-10 w-auto h-auto flex lg:flex-row flex-col text-resumetext relative;
 }
 </style>
