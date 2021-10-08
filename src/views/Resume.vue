@@ -30,7 +30,17 @@
         </div>
       </div>
     </aside>
-    <div class="w-auto lg:mr-20 grid grid-cols-2 gap-4 lg:block lg:mb-0 mb-4">
+    <div
+      class="
+        w-auto
+        lg:mr-20
+        grid grid-cols-1
+        md:grid-cols-2
+        gap-4
+        lg:block lg:mb-0
+        mb-4
+      "
+    >
       <div class="w-full lg:mb-6">
         <p class="mb-1 font-bold text-resumeheading">nickypangers.com</p>
         <p class="mb-1">Hong Kong</p>
