@@ -7,15 +7,15 @@
 </template>
 
 <script>
-import { onMounted } from "vue";
+// import { onMounted } from "vue";
 export default {
   props: {
     navItem: Object,
   },
-  setup(props) {
-    onMounted(() => {
-      console.log(props.navItem);
-    });
+  setup() {
+    // onMounted(() => {
+    // console.log(props.navItem);
+    // });
   },
 };
 </script>

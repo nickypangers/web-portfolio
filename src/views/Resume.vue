@@ -14,7 +14,7 @@
           </a>
         </div>
         <div>
-          <a :href="pdfLink" download>
+          <a href="/resume.pdf" download>
             <button>
               <p>
                 <span>
