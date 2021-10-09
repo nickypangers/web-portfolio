@@ -19,7 +19,7 @@
       "image": {
         "isLocal": false,
         "link": "https://www.kingfook.com/img/common/logo4.png",
-        "alt": "Ayes Logo",
+        "alt": "King Fook Logo",
         "objectFit": "object-contain"
       },
       "isDisplay": false
@@ -31,7 +31,7 @@
       "image": {
         "isLocal": false,
         "link": "https://static.wixstatic.com/media/57b633_3ba53b46b290446a92a7e51b1e889763~mv2.png/v1/crop/x_58,y_422,w_1057,h_324/fill/w_476,h_146,al_c,q_85,usm_0.66_1.00_0.01/57b633_3ba53b46b290446a92a7e51b1e889763~mv2.webp",
-        "alt": "Visa Checker Logo",
+        "alt": "Walk Duck Logo",
         "objectFit": "object-contain"
       },
       "isDisplay": true
@@ -41,9 +41,9 @@
       "displayLink": "https://www.nickypangers.com",
       "link": "https://www.nickypangers.com",
       "image": {
-        "isLocal": false,
-        "link": "https://www.kingfook.com/img/common/logo4.png",
-        "alt": "Ayes Logo",
+        "isLocal": true,
+        "link": "images/avatar.png",
+        "alt": "Avatar",
         "objectFit": "object-contain"
       },
       "isDisplay": true
