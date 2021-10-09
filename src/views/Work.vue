@@ -4,7 +4,7 @@
       <div class="container pb-8">
         <page-hero
           route="work"
-          subtitle="Below are projects I'm working on currently or worked on in the past."
+          subtitle="Below are projects I'm currently working on or have worked on in the past."
         />
         <section id="work">
           <div
