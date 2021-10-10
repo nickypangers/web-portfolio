@@ -30,6 +30,6 @@ p {
 }
 
 .footer-text {
-  @apply text-gray-400 dark:text-white text-xs;
+  @apply text-black dark:text-white text-xs;
 }
 </style>
