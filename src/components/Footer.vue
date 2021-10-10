@@ -26,7 +26,7 @@ export default {
 
 <style scoped>
 p {
-  @apply font-extralight;
+  @apply font-light;
 }
 
 .footer-text {
