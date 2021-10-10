@@ -9,6 +9,8 @@
         hover:-translate-y-2.5
         ease-in-out
         duration-150
+        dark:border-gray-300
+        border-transparent border
       "
     >
       <div
@@ -42,8 +44,10 @@
           items-start
         "
       >
-        <p class="font-bold mb-3">{{ work.name }}</p>
-        <p class="text-blue-600 text-lg">{{ work.displayLink }}</p>
+        <p class="font-bold mb-3 dark:text-white">{{ work.name }}</p>
+        <p class="text-blue-600 text-lg dark:text-blue-300">
+          {{ work.displayLink }}
+        </p>
       </div>
     </div>
   </a>

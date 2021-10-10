@@ -7,8 +7,8 @@ import {
   faTwitter,
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
-import { faFileDownload } from "@fortawesome/free-solid-svg-icons";
-import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
+import { faFileDownload, faMoon } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope, faSun } from "@fortawesome/free-regular-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import "./assets/tailwind.css";
 import "./assets/index.css";
@@ -18,6 +18,8 @@ library.add(faLinkedin);
 library.add(faTwitter);
 library.add(faEnvelope);
 library.add(faFileDownload);
+library.add(faSun);
+library.add(faMoon);
 
 createApp(App)
   .use(router)

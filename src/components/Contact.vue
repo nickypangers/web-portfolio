@@ -12,7 +12,7 @@
               </p>
               <div class="flex justify-around">
                 <a href="mailto:nixon@nickypangers.com">
-                  <button class="text-black">
+                  <button>
                     <font-awesome-icon :icon="['far', 'envelope']" size="2x" />
                   </button>
                 </a>
@@ -21,7 +21,7 @@
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <button class="text-black">
+                  <button>
                     <font-awesome-icon :icon="['fab', 'instagram']" size="2x" />
                   </button>
                 </a>
@@ -30,7 +30,7 @@
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <button class="text-black">
+                  <button>
                     <font-awesome-icon :icon="['fab', 'twitter']" size="2x" />
                   </button>
                 </a>
@@ -58,5 +58,9 @@ p {
 
 a {
   @apply text-blue-600 hover:underline;
+}
+
+button {
+  @apply text-black dark:text-white hover:text-blue-600 dark:hover:text-blue-300;
 }
 </style>

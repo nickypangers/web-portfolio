@@ -4,11 +4,15 @@
   font-family: "Exo", sans-serif;
 }
 
+#app {
+  @apply bg-white dark:bg-darkprimary;
+}
+
 .resume-list {
   @apply ml-5;
   list-style-type: square;
 }
 
-.resume-list>li {
+.resume-list > li {
   @apply mb-1.5;
 }

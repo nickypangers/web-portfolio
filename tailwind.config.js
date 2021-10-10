@@ -1,6 +1,6 @@
 module.exports = {
   purge: { content: ["./public/**/*.html", "./src/**/*.vue"] },
-  darkMode: false, // or 'media' or 'class'
+  darkMode: "class", // or 'media' or 'class'
   theme: {
     extend: {
       colors: {
@@ -8,6 +8,7 @@ module.exports = {
         resume: "#E7E8EF",
         resumeheading: "#084C61",
         resumetext: "#474747",
+        darkprimary: "#1e3851",
       },
     },
     container: {

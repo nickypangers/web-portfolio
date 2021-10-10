@@ -1,6 +1,6 @@
 <template>
   <div id="footer">
-    <div class="bg-white border-t mt-12">
+    <div class="bg-white dark:bg-darkprimary border-t mt-12">
       <div class="container flex justify-center items-center py-12">
         <div class="content-area text-center">
           <p class="footer-text">
@@ -30,6 +30,6 @@ p {
 }
 
 .footer-text {
-  @apply text-gray-400 text-xs;
+  @apply text-gray-400 dark:text-white text-xs;
 }
 </style>
