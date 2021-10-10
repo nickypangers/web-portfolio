@@ -15,15 +15,10 @@
 </template>
 
 <script>
-// import { onMounted } from "vue";
 export default {
   props: {
     navItem: Object,
   },
-  setup() {
-    // onMounted(() => {
-    // console.log(props.navItem);
-    // });
-  },
+  setup() {},
 };
 </script>

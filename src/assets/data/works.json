@@ -42,7 +42,7 @@
       "link": "https://www.nickypangers.com",
       "image": {
         "isLocal": true,
-        "link": "images/avatar.png",
+        "link": "images/next-gen/avatar.webp",
         "alt": "Avatar",
         "objectFit": "object-contain"
       },
@@ -54,7 +54,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.nickypangers.visacheckertravel",
       "image": {
         "isLocal": true,
-        "link": "images/Icon-512.png",
+        "link": "images/next-gen/Icon-512.webp",
         "alt": "Visa Checker Logo",
         "objectFit": "object-contain"
       },

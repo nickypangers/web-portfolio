@@ -9,14 +9,18 @@
               target="_blank"
               rel="noopener noreferrer"
             >
-              <button class="text-blue-600">
+              <button
+                class="text-blue-600"
+                name="resume-linkedin"
+                aria-label="resume-linkedin"
+              >
                 <font-awesome-icon :icon="['fab', 'linkedin']" size="lg" />
               </button>
             </a>
           </div>
           <div>
             <a href="/resume.pdf" download>
-              <button>
+              <button name="resume-download" aria-label="resume-download">
                 <p>
                   <span>
                     <font-awesome-icon

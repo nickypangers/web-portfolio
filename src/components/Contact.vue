@@ -12,7 +12,7 @@
               </p>
               <div class="flex justify-around">
                 <a href="mailto:nixon@nickypangers.com">
-                  <button>
+                  <button name="contact-email" aria-label="contact-email">
                     <font-awesome-icon :icon="['far', 'envelope']" size="2x" />
                   </button>
                 </a>
@@ -21,7 +21,10 @@
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <button>
+                  <button
+                    name="contact-instagram"
+                    aria-label="contact-instagram"
+                  >
                     <font-awesome-icon :icon="['fab', 'instagram']" size="2x" />
                   </button>
                 </a>
@@ -30,7 +33,7 @@
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <button>
+                  <button name="contact-twitter" aria-label="contact-twitter">
                     <font-awesome-icon :icon="['fab', 'twitter']" size="2x" />
                   </button>
                 </a>

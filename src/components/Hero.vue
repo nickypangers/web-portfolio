@@ -13,7 +13,12 @@
       "
     >
       <div class="hero-avatar my-8">
-        <img alt="Avatar" src="../assets/images/avatar.png" />
+        <img
+          alt="Avatar"
+          src="../assets/images/next-gen/avatar.webp"
+          width="200"
+          height="200"
+        />
       </div>
       <div class="hero-header text-center md:text-left ml-0 md:ml-6">
         <p class="font-extrabold text-6xl md:text-8xl mb-6 title">
