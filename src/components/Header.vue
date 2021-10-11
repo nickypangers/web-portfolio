@@ -13,14 +13,14 @@
         <div class="flex justify-end mb-3 lg:mb-0">
           <DarkModeToggleButton />
         </div>
-        <ul class="flex">
+        <div class="flex">
           <template
             v-for="(navItem, index) in navItemList.items"
             :key="'navItem-' + index"
           >
             <NavButton :nav-item="navItem" v-if="navItem.display" />
           </template>
-        </ul>
+        </div>
       </div>
     </div>
   </div>

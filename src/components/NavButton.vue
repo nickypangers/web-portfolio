@@ -1,6 +1,6 @@
 <template>
   <router-link :to="navItem.route">
-    <li
+    <div
       class="
         py-0.5
         mx-4
@@ -10,7 +10,7 @@
       "
     >
       <p class="font-bold text-lg dark:text-white">{{ navItem.name }}</p>
-    </li>
+    </div>
   </router-link>
 </template>
 
