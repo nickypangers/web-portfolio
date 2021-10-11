@@ -1,8 +1,18 @@
 <template>
   <div class="overflow-hidden">
     <div data-aos="fade-down" data-aos-duration="800">
-      <div class="h-28 flex justify-between items-center p-8">
-        <p></p>
+      <div
+        class="
+          min-h-28
+          flex flex-col
+          lg:flex-row lg:justify-between
+          items-center
+          p-8
+        "
+      >
+        <div class="flex justify-end mb-3 lg:mb-0">
+          <DarkModeToggleButton />
+        </div>
         <ul class="flex">
           <template
             v-for="(navItem, index) in navItemList.items"
@@ -17,6 +27,7 @@
 </template>
 
 <script>
+import DarkModeToggleButton from "@/components/DarkModeToggleButton";
 import NavButton from "@/components/NavButton";
 import { onMounted } from "vue";
 import AOS from "aos";
@@ -25,6 +36,7 @@ import navItemList from "@/assets/data/navitems.json";
 export default {
   components: {
     NavButton,
+    DarkModeToggleButton,
   },
   setup() {
     const isLastNavItem = (index) => {

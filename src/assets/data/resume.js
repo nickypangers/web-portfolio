@@ -6,6 +6,8 @@ let coreTechnologies = [
   "HTML",
   "CSS",
   "SQL",
+  "Flutter",
+  "SCSS",
 ];
 let others = ["Responsive Website Design", "SEO", "Performance Optimization"];
 
@@ -48,7 +50,7 @@ export const resumeData = {
         "Quality assurance of hardware function design",
         "Compliance and product certification",
         "Translate customer product requirements into hardware requirements, test plan and design documentations before hardwrae implementation",
-        "In-hoise manufacturing setup",
+        "In-house manufacturing setup",
       ],
     },
   ],

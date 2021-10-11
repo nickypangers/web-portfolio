@@ -4,11 +4,22 @@
       class="w-24 h-24 border rounded-3xl p-2 h-full shadow"
       v-if="imageName"
     >
-      <div class="h-full w-full rounded-2xl icon-box">
+      <div
+        class="
+          h-full
+          w-full
+          rounded-2xl
+          icon-box
+          flex
+          justify-center
+          items-center
+        "
+      >
         <img
-          class="h-full w-full"
-          :src="require(`../assets/images/${imageName}.png`)"
+          :src="require(`../assets/images/next-gen/${imageName}.webp`)"
           alt="thinking"
+          width="78"
+          height="78"
         />
       </div>
     </div>

@@ -1,12 +1,19 @@
 <template>
-  <div class="w-full lg:mb-6 col-span-2 lg:col-span-1">
-    <h3 class="font-bold text-lg text-resumeheading mb-1">{{ title }}:</h3>
-    <ul>
-      <li class="font-extrabold text-lg">{{ education.name }}</li>
-      <li class="font-bold">{{ education.degree }}</li>
-      <li>{{ education.period }}</li>
-      <li>{{ education.location }}</li>
-    </ul>
+  <div class="py-8">
+    <h1 class="text-xl mb-4 text-resumeheading font-bold">Education</h1>
+    <div class="flex justify-between items-start">
+      <div>
+        <ul>
+          <li class="font-extrabold text-lg">{{ education.name }}</li>
+          <li class="font-bold">{{ education.degree }}</li>
+          <li>{{ education.period }}</li>
+          <li class="lg:block hidden">{{ education.location }}</li>
+        </ul>
+      </div>
+      <div class="lg:hidden block">
+        <p>{{ education.location }}</p>
+      </div>
+    </div>
   </div>
 </template>
 <script>

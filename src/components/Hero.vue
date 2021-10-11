@@ -1,31 +1,45 @@
 <template>
   <section id="hero">
-    <div class="bg-white">
-      <div
-        class="
-          py-24
-          px-3
-          lg:px-0
-          flex flex-col
-          md:flex-row
-          justify-center
-          items-center
-        "
-      >
-        <div class="hero-avatar my-8">
-          <img alt="Avatar" src="../assets/images/avatar.png" />
-        </div>
-        <div class="hero-header text-center md:text-left ml-0 md:ml-6">
-          <p class="font-extrabold text-6xl md:text-8xl mb-6 title">
-            Hello, I am Nixon.
-          </p>
-          <p class="hero-subtitle font-light text-xl lg:text-2xl mb-6">
-            I create amazing things on the internet for a living and I love what
-            I do.
-          </p>
-        </div>
+    <!-- <div class="bg-white dark:bg-darkprimary"> -->
+    <div
+      class="
+        py-24
+        px-3
+        lg:px-0
+        flex flex-col
+        md:flex-row
+        justify-center
+        items-center
+      "
+    >
+      <div class="hero-avatar my-8">
+        <img
+          alt="Avatar"
+          src="../assets/images/next-gen/avatar.webp"
+          width="200"
+          height="200"
+        />
+      </div>
+      <div class="hero-header text-center md:text-left ml-0 md:ml-6">
+        <p class="font-extrabold text-6xl md:text-8xl mb-6 title">
+          Hello, I am Nixon.
+        </p>
+        <p
+          class="
+            hero-subtitle
+            font-light
+            text-xl
+            lg:text-2xl
+            mb-6
+            dark:text-white
+          "
+        >
+          I create amazing things on the internet for a living and I love what I
+          do.
+        </p>
       </div>
     </div>
+    <!-- </div> -->
   </section>
 </template>
 
