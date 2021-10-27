@@ -2,8 +2,8 @@ import { createRouter, createWebHistory } from "vue-router";
 import Home from "../views/Home.vue";
 import PageNotFound from "../views/PageNotFound.vue";
 import Work from "../views/Work.vue";
-import WorkDetail from "../views/WorkDetail.vue";
 import Resume from "../views/Resume.vue";
+import VisaChecker from "../views/work/VisaChecker.vue";
 
 const routes = [
   {
@@ -17,14 +17,14 @@ const routes = [
     component: Work,
   },
   {
-    path: "/work/:work",
-    name: "WorkDetail",
-    component: WorkDetail,
-  },
-  {
     path: "/resume",
     name: "Resume",
     component: Resume,
+  },
+  {
+    path: "/work/visachecker",
+    name: "VisaChecker",
+    component: VisaChecker,
   },
   {
     path: "/:pathMatch(.*)",
