@@ -46,7 +46,7 @@
           mb-4
         "
       >
-        <div class="w-full lg:mb-6">
+        <div class="w-full lg:mb-6 hidden lg:block">
           <p class="mb-1 font-bold text-resumeheading">nickypangers.com</p>
           <p class="mb-1">Hong Kong</p>
           <a href="mailto:nixon@nickypangers.com"
@@ -55,12 +55,14 @@
             </p></a
           >
         </div>
-        <List
-          title="Core Technologies"
-          :list="resumeData.coreTechnologies"
-          v-if="config.coreTechnologies"
-        />
-        <List title="Others" :list="resumeData.others" v-if="config.others" />
+        <div class="grid grid-cols-2 lg:grid-cols-1">
+          <List
+            title="Core Technologies"
+            :list="resumeData.coreTechnologies"
+            v-if="config.coreTechnologies"
+          />
+          <List title="Others" :list="resumeData.others" v-if="config.others" />
+        </div>
       </div>
       <div class="w-full mt-5 lg:mt-0 col-span-2 divide-y divide-black">
         <section id="introduction">

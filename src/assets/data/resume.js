@@ -1,5 +1,8 @@
 let coreTechnologies = [
   "Javascript",
+  "jQuery",
+  "Tailwind",
+  "Bootstrap",
   "Vue.js",
   "PHP",
   "Go",
@@ -8,8 +11,24 @@ let coreTechnologies = [
   "SQL",
   "Flutter",
   "SCSS",
+  "Git",
+  "Firebase",
+  "REST APIs",
 ];
-let others = ["Responsive Website Design", "SEO", "Performance Optimization"];
+
+let softSkills = [
+  "Responsive Web Design",
+  "Software Testing",
+  "SEO",
+  "Agile Development",
+];
+
+let others = [
+  "Responsive Web Design",
+  "Software Testing",
+  "SEO",
+  "Agile Development",
+];
 
 let education = {
   name: "University of Leeds",
@@ -21,21 +40,27 @@ let education = {
 export const resumeData = {
   config: {
     coreTechnologies: true,
-    others: false,
+    others: true,
     education: true,
     experiences: true,
   },
   coreTechnologies: coreTechnologies.sort(),
+  softSkills: softSkills.sort(),
   others: others.sort(),
   education: education,
   experiences: [
     {
-      company: "Mosaic",
+      company: "Mosaic Digital Group",
       position: "Web/Mobile Application Developer",
       period: "Nov 2020 - Present",
       description:
-        "I am working with Mosaic as a Web/Mobile Application Developer to create responsive websites and mobile applications for both Android and iOS.",
-      points: [],
+        "I am working with Mosaic Digital Group as a Web/Mobile Application Developer to create responsive websites and hybrid mobile applications for both Android and iOS.",
+      points: [
+        "Build mobile applications for both Android and iOS using Flutter",
+        "Build responsive websites and custom content management systems (CMS) according to client specifications and designer wireframes using HTML, CSS, SCSS, PHP and Vue.js",
+        "Deploy web applications on AWS",
+        "Implement enhancements that improved web functionality, responsiveness and performance",
+      ],
     },
     {
       company: "SG Wireless",
