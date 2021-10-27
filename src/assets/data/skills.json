@@ -1,0 +1,17 @@
+{
+  "frontend": {
+    "title": "Front-end Development",
+    "languages": ["HTML", "CSS", "SCSS", "Vue.js"],
+    "description": "I turn design sketches and wireframes from designers and clients into life in the web."
+  },
+  "backend": {
+    "title": "Back-end Development",
+    "languages": ["Go", "PHP", "SQL"],
+    "description": "I create complex while easy-to-use backend systems for clients."
+  },
+  "mobile": {
+    "title": "Mobile Development",
+    "languages": ["Flutter"],
+    "description": "I build mobile applications for both Android and iOS."
+  }
+}

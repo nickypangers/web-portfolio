@@ -1,41 +1,37 @@
 <template>
+  <Header v-if="currentPath != '/resume'" />
   <router-view />
-  <Footer />
+  <Footer v-if="currentPath != '/resume'" />
 </template>
 
 <script>
-import Footer from "@/components/Footer.vue";
-
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+import { computed } from "vue";
+import { useRoute } from "vue-router";
 export default {
   components: {
+    Header,
     Footer,
   },
-  setup() {},
+  setup() {
+    const route = useRoute();
+
+    const currentPath = computed(() => route.path);
+
+    return {
+      currentPath,
+    };
+  },
 };
 </script>
 
-<style lang="scss">
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap");
-
-body {
-  margin: 0;
-  padding: 0;
-  background-color: $primary;
-  color: $text;
+<style>
+.content-box {
+  @apply flex justify-center items-center pt-24 dark:bg-darkprimary;
 }
 
-#app {
-  // font-family: Avenir, Helvetica, Arial, sans-serif;
-  font-family: "Inter", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  // color: #2c3e50;
-}
-
-.back-top {
-  position: fixed;
-  bottom: calc(140px + 2rem);
-  right: 2rem;
+.content-area {
+  @apply w-full lg:w-1/2 mx-6 md:mx-0 text-black dark:text-white dark:bg-darkprimary;
 }
 </style>

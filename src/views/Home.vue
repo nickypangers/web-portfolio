@@ -1,41 +1,39 @@
 <template>
-  <div class="home">
-    <Banner />
+  <div class="container">
+    <div class="overflow-hidden">
+      <div data-aos="zoom-in" data-aos-duration="800">
+        <Hero />
+        <Description />
+      </div>
+    </div>
     <About />
-    <Jobs />
-    <Projects />
-    <GetInTouch />
+    <Skills />
+    <Contact />
   </div>
 </template>
 
 <script>
-import Banner from "@/components/Banner.vue";
-import About from "@/components/About.vue";
-import Jobs from "@/components/Jobs.vue";
-import Projects from "@/components/Projects.vue";
-import GetInTouch from "@/components/GetInTouch.vue";
-
+import { onMounted } from "vue";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import Hero from "@/components/Hero";
+import Description from "@/components/Description";
+import About from "@/components/About";
+import Skills from "@/components/Skills";
+import Contact from "@/components/Contact";
 export default {
   name: "Home",
   components: {
-    Banner,
+    Hero,
     About,
-    Jobs,
-    Projects,
-    GetInTouch,
+    Description,
+    Skills,
+    Contact,
+  },
+  setup() {
+    onMounted(() => {
+      AOS.init();
+    });
   },
 };
 </script>
-
-<style lang="scss" scoped>
-@media (min-width: 992px) {
-  .home {
-    margin-bottom: 0 !important;
-  }
-}
-
-.home {
-  position: relative;
-  margin-bottom: $footer-height;
-}
-</style>

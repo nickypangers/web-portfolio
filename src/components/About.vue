@@ -1,57 +1,50 @@
 <template>
-  <div id="about" class="section about container text-start">
-    <h2>About Me</h2>
-    <p>
-      Hi! I am Nixon and I build websites and applications for a living. My
-      interest in programming dated back to 2006 when my sister introduced me to
-      xanga. The first time I had a go at coding was when I tried to customise
-      the cursor of my blog using CSS, and I have not stopped learning how to
-      code ever since!
-    </p>
-    <p>
-      Today, I work as a
-      <span class="highlight">Web/Mobile App Developer</span> working at a
-      digital agency based in Hong Kong, where my colleagues and I create
-      websites and mobile applications tailored to our clients' needs.
-      <span class="font-normal italic"
-        >Prior to this position, I was a hardware engineer.</span
-      >
-    </p>
-    <p>
-      Below are a few technologies I've been working on:
-    </p>
-    <div class="w-100">
-      <ul class="custom-list row">
-        <li class="col-6">Flutter</li>
-        <li class="col-6">Go</li>
-        <li class="col-6">Javascript</li>
-        <li class="col-6">Vue</li>
-        <li class="col-6">PHP</li>
-        <li class="col-6">MySQL</li>
-      </ul>
+  <section id="about">
+    <div class="overflow-hidden">
+      <div data-aos="fade-up" data-aos-delay="300">
+        <div class="bg-white">
+          <div class="content-box">
+            <div class="content-area">
+              <section-title image-name="thinking" title="Who Am I?" />
+              <p>
+                I was born in Hong Kong and can speak fluent
+                <span class="font-extrabold">Cantonese</span>,
+                <span class="font-extrabold">Mandarin</span> and
+                <span class="font-extrabold">English</span>. I completed my
+                secondary and higher educations in the UK, and graduated from
+                the University of Leeds with a Bachelor's degree in
+                <span class="font-extrabold"
+                  >Electronic and Electrical Engineering</span
+                >. After working in the field for a year, I have decided to
+                pursue a career in Programming and have been working as a
+                web/mobile application developer since November 2020.
+              </p>
+              <p>
+                Outside of work, I enjoy exploring new technologies to learn as
+                well as doing exercise such as Muay Thai and occasional gaming
+                with friends. I also enjoy travelling a lot, hopefully I can do
+                that once COVID is gone.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>
+import SectionTitle from "@/components/SectionTitle";
 export default {
-  name: "About",
+  components: {
+    SectionTitle,
+  },
   setup() {},
 };
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 p {
-  // font-weight: bold;
-  font-size: 1.2rem;
-}
-
-.font-normal {
-  font-weight: normal;
-}
-
-.highlight {
-  //   color: #21ad49;
-  text-decoration: underline;
+  @apply font-extralight text-xl mb-6;
 }
 </style>

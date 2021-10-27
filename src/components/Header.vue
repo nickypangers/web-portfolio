@@ -1,54 +1,59 @@
 <template>
-  <header>
-    <!-- <div
-      class="header d-flex flex-lg-row flex-column justify-content-lg-between align-items-lg-center justify-content-center"
-    >
-      <div class="header-section text-start">{{ date }}</div>
-      <router-link to="/#testing"
-        ><div class="header-section">Testing</div></router-link
+  <div class="overflow-hidden">
+    <div data-aos="fade-down" data-aos-duration="800">
+      <div
+        class="
+          min-h-28
+          flex flex-col
+          lg:flex-row lg:justify-between
+          items-center
+          p-8
+        "
       >
-      <div class="header-section text-end">My CV</div>
-    </div> -->
-  </header>
+        <div class="flex justify-end mb-3 lg:mb-0">
+          <DarkModeToggleButton />
+        </div>
+        <div class="flex">
+          <template
+            v-for="(navItem, index) in navItemList.items"
+            :key="'navItem-' + index"
+          >
+            <NavButton :nav-item="navItem" v-if="navItem.display" />
+          </template>
+        </div>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>
-import { computed } from "vue";
-
+import DarkModeToggleButton from "@/components/DarkModeToggleButton";
+import NavButton from "@/components/NavButton";
+import { onMounted } from "vue";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import navItemList from "@/assets/data/navitems.json";
 export default {
-  name: "Header",
+  components: {
+    NavButton,
+    DarkModeToggleButton,
+  },
   setup() {
-    const options = {
-      weekday: "long",
-      year: "numeric",
-      month: "long",
-      day: "numeric",
+    const isLastNavItem = (index) => {
+      if (index == navItemList.items.length - 1) {
+        return true;
+      }
+      return false;
     };
 
-    const date = computed(() => {
-      let event = new Date();
-      return event.toLocaleDateString(undefined, options);
+    onMounted(() => {
+      AOS.init();
     });
 
     return {
-      date,
+      navItemList,
+      isLastNavItem,
     };
   },
 };
 </script>
-
-<style lang="scss" scoped>
-.header {
-  width: 100%;
-  border: 1px solid transparent;
-  background-color: transparent;
-  height: 8rem;
-  padding: 3rem;
-}
-
-.header-section {
-  width: 20%;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-</style>
