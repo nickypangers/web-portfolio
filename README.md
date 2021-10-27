@@ -1,29 +1,4 @@
-# web-portfolio
+<h1 align="center">nickypangers.com</h1>
 
-## Project setup
+<p align="center"><a href="https://nickypangers.com">nickypangers.com</a> built with <a href="https://vuejs.org">Vue</a> and hosted with <a href="https://firebase.google.com">Firebase</a></p>
 
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-
-```
-npm run build
-```
-
-### Lints and fixes files
-
-```
-npm run lint
-```
-
-### Customize configuration
-
-See [Configuration Reference](https://cli.vuejs.org/config/).
