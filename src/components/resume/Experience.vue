@@ -18,7 +18,10 @@
         —
         {{ experience.position }}
       </p>
-      <p class="text-sm">{{ experience.period }}</p>
+      <div class="text-left md:text-right">
+        <p class="text-sm">{{ experience.period }}</p>
+        <p class="text-sm">{{ experience.location }}</p>
+      </div>
     </div>
     <div class="lg:mr-52 text-md">
       {{ experience.description }}

@@ -50,12 +50,24 @@
     },
     {
       "name": "Visa Checker",
-      "displayLink": "https://www.nickypangers.com",
+      "displayLink": "https://play.google.com",
       "link": "https://play.google.com/store/apps/details?id=com.nickypangers.visacheckertravel",
       "image": {
         "isLocal": true,
         "link": "images/next-gen/Icon-512.webp",
         "alt": "Visa Checker Logo",
+        "objectFit": "object-contain"
+      },
+      "isDisplay": true
+    },
+    {
+      "name": "Flutter ARB Editor",
+      "displayLink": "https://www.flutterarb.com",
+      "link": "https://www.flutterarb.com",
+      "image": {
+        "isLocal": true,
+        "link": "images/flutterarb.png",
+        "alt": "Flutter ARB Logo",
         "objectFit": "object-contain"
       },
       "isDisplay": true

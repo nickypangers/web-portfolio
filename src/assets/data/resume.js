@@ -50,9 +50,10 @@ export const resumeData = {
   education: education,
   experiences: [
     {
-      company: "Mosaic Digital Group",
+      company: "Mosaic Digital Production",
       position: "Web/Mobile Application Developer",
       period: "Nov 2020 - Present",
+      location: "Lai Chi Kok, Hong Kong",
       description:
         "I am working with Mosaic Digital Group as a Web/Mobile Application Developer to create responsive websites and hybrid mobile applications for both Android and iOS.",
       points: [
@@ -66,6 +67,7 @@ export const resumeData = {
       company: "SG Wireless",
       position: "Hardware Engineer",
       period: "Feb 2020 - Oct 2020",
+      location: "Tsuen Wan, Hong Kong",
       description:
         "I worked with SG Wireless as a Hardware Engineer to develop internet-of-things products involving BLE, LoRa and WiFi 6 technologies.",
       points: [
