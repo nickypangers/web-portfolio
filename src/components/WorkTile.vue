@@ -44,8 +44,10 @@
           items-start
         "
       >
-        <p class="font-bold mb-3 dark:text-white">{{ work.name }}</p>
-        <p class="text-blue-600 text-lg dark:text-blue-300">
+        <p class="font-bold mb-3 dark:text-white w-full break-words">
+          {{ work.name }}
+        </p>
+        <p class="text-blue-600 text-lg dark:text-blue-300 w-full break-words">
           {{ work.displayLink }}
         </p>
       </div>
