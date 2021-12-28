@@ -1,0 +1,19 @@
+{
+  "items": [
+    {
+      "name": "/home",
+      "route": "/",
+      "display": true
+    },
+    {
+      "name": "/work",
+      "route": "/work",
+      "display": true
+    },
+    {
+      "name": "/resume",
+      "route": "/resume",
+      "display": true
+    }
+  ]
+}
