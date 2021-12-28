@@ -1,4 +1,11 @@
-<h1 align="center">nickypangers.com</h1>
+# **nickypangers** | Personal Portfolio of Nixon Pang
 
-<p align="center"><a href="https://nickypangers.com">nickypangers.com</a> built with <a href="https://vuejs.org">Vue</a> and hosted with <a href="https://firebase.google.com">Firebase</a></p>
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2aef2896-ba45-4345-a308-ed3cacf6c519/deploy-status)](https://app.netlify.com/sites/peaceful-meninsky-fe2e19/deploys)
 
+- Technology:
+
+  - Built with [Nuxt.js](https://nuxtjs.org)
+
+  - Scroll animations using [AOS](https://michalsnik.github.io/aos/)
+
+  - Deployed with [Netlify](https://netlify.com)

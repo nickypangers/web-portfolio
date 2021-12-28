@@ -39,6 +39,8 @@ export default {
     '@nuxtjs/fontawesome',
     '@nuxtjs/google-fonts',
     '@nuxtjs/svg-sprite',
+    '@nuxtjs/robots',
+    '@nuxtjs/sitemap',
   ],
 
   svgSprite: {
@@ -61,6 +63,17 @@ export default {
       solid: ['faFileDownload', 'faMoon'],
       regular: ['faEnvelope', 'faSun'],
     },
+  },
+
+  robots: {
+    UserAgent: '*',
+    Disallow: '',
+  },
+
+  sitemap: {
+    hostname: 'https://nickypangers.com',
+    gzip: true,
+    exclude: [],
   },
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
