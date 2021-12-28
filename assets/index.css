@@ -1,0 +1,7 @@
+.content-box {
+    @apply py-16 dark:bg-darkprimary;
+}
+
+.content-area {
+    @apply text-black dark:text-white dark:bg-darkprimary;
+}
