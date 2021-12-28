@@ -8,7 +8,14 @@
         />
         <section id="work">
           <div
-            class="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3 px-4 lg:px-0"
+            class="
+              grid grid-cols-1
+              gap-5
+              md:grid-cols-2
+              lg:grid-cols-3
+              px-4
+              lg:px-0
+            "
           >
             <template v-for="(work, index) in workList">
               <work-tile
@@ -32,7 +39,7 @@ export default {
     PageHero,
     WorkTile,
   },
-  header() {
+  head() {
     return {
       title: 'Work - Nixon Pang',
     }
