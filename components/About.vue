@@ -21,7 +21,7 @@
               </p>
               <p>
                 Outside of work, I enjoy exploring new technologies to learn as
-                well as doing exercise such as Muay Thai and occasional gaming
+                well as doing exercises such as Muay Thai and occasional gaming
                 with friends. I also enjoy travelling a lot, hopefully I can do
                 that once COVID is gone.
               </p>

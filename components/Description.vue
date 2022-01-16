@@ -6,15 +6,16 @@
         data-aos="fade-up"
         data-aos-delay="300"
       >
+        <!-- <div class="content" v-html="$md.render(content)"></div> -->
         <p class="text-2xl mb-6">
           My name is Nixon Pang and I'm a Programmer with professional
           experience in creating websites and mobile applications for both
           Android and iOS.
         </p>
         <p>
-          I am currently working as a Web/Mobile Application developer at a
-          digital agency based in Hong Kong. My day to day tasks include turning
-          design wireframes and client's ideas into reality.
+          I recently worked as a Web/Mobile Application developer at a digital
+          agency based in Hong Kong. My role was to include turning design
+          wireframes and client's ideas into reality.
         </p>
         <p>
           While I have the right to work in both Canada and Hong Kong, I'm open
@@ -49,9 +50,19 @@
 <script>
 export default {
   name: 'Description',
+  props: {
+    content: {
+      type: String,
+      default: '',
+    },
+  },
 }
 </script>
 <style scoped>
+.content {
+  @apply whitespace-pre-line;
+}
+
 p {
   @apply font-extralight text-xl mb-6 dark:text-white;
 }

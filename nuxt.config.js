@@ -41,6 +41,18 @@ export default {
     '@nuxtjs/svg-sprite',
     '@nuxtjs/robots',
     '@nuxtjs/sitemap',
+    '@nuxtjs/axios',
+    [
+      'storyblok-nuxt',
+      {
+        accessToken: process.env.STORYBLOK_API_TOKEN,
+        cacheProvider: 'memory',
+      },
+    ],
+    [
+      '@nuxtjs/markdownit',
+      { html: true, injected: true, linkify: true, breaks: true },
+    ],
   ],
 
   svgSprite: {
@@ -74,6 +86,10 @@ export default {
     hostname: 'https://nickypangers.com',
     gzip: true,
     exclude: [],
+  },
+
+  publicRuntimeConfig: {
+    storyblokApiToken: process.env.STORYBLOK_API_TOKEN,
   },
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
