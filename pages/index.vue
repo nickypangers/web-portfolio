@@ -4,7 +4,7 @@
     <description :content="story.content.description" />
     <about />
     <skills />
-    <contact /> {{ story }}
+    <contact />
   </div>
 </template>
 

@@ -14,8 +14,7 @@
         </p>
         <p>
           I recently worked as a Web/Mobile Application developer at a digital
-          agency based in Hong Kong. My role was to include turning design
-          wireframes and client's ideas into reality.
+          agency based in Hong Kong.
         </p>
         <p>
           While I have the right to work in both Canada and Hong Kong, I'm open
