@@ -52,7 +52,7 @@ export const resumeData = {
     {
       company: 'Mosaic Digital Production',
       position: 'Web/Mobile Application Developer',
-      period: 'Nov 2020 - Present',
+      period: 'Nov 2020 - Jan 2022',
       location: 'Lai Chi Kok, Hong Kong',
       description:
         'I am working with Mosaic Digital Group as a Web/Mobile Application Developer to create responsive websites and hybrid mobile applications for both Android and iOS.',
