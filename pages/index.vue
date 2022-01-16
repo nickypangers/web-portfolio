@@ -35,7 +35,7 @@ export default {
         version: 'draft',
       })
       .then((res) => {
-        console.log(res.data)
+        // console.log(res.data)
         return res.data
       })
       .catch((res) => {
