@@ -6,7 +6,7 @@
           <div class="content-box">
             <div class="content-area">
               <section-title image-name="computer" title="My Tech Stack" />
-              <p>
+              <!-- <p>
                 I use variety of technologies for both work and personally, and
                 am always looking to learn more to improve my skills.
               </p>
@@ -31,7 +31,8 @@
                 For mobile, <span class="font-extrabold">Flutter</span>
                 is my favoured method for developing both Android and iOS
                 applications.
-              </p>
+              </p> -->
+              <div v-html="$md.render(content)" class="content"></div>
             </div>
           </div>
         </div>
@@ -46,11 +47,21 @@ export default {
   components: {
     SectionTitle,
   },
+  props: {
+    content: {
+      type: String,
+      default: '',
+    },
+  },
 }
 </script>
 
 <style scoped>
-p {
+.content >>> p {
   @apply font-extralight text-xl mb-6;
+}
+
+.content >>> p > strong {
+  @apply font-extrabold;
 }
 </style>

@@ -2,8 +2,8 @@
   <div class="container px-4 md:p-0">
     <hero />
     <description :content="story.content.description" />
-    <about />
-    <skills />
+    <about :content="story.content.who_am_i" />
+    <skills :content="story.content.my_tech_stack" />
     <contact />
   </div>
 </template>

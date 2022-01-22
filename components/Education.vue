@@ -7,11 +7,9 @@
           <li class="font-extrabold text-lg">{{ education.name }}</li>
           <li class="font-bold">{{ education.degree }}</li>
           <li>{{ education.period }}</li>
-          <li class="lg:block hidden">{{ education.location }}</li>
+          <li class="">{{ education.location }}</li>
+          <li>{{ education.description }}</li>
         </ul>
-      </div>
-      <div class="lg:hidden block">
-        <p>{{ education.location }}</p>
       </div>
     </div>
   </div>

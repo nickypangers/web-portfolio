@@ -51,7 +51,13 @@ export default {
     ],
     [
       '@nuxtjs/markdownit',
-      { html: true, injected: true, linkify: true, breaks: true },
+      {
+        html: true,
+        runtime: true,
+        injected: true,
+        linkify: true,
+        breaks: true,
+      },
     ],
   ],
 

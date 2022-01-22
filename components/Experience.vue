@@ -19,7 +19,7 @@
       {{ experience.description }}
     </div>
     <div class="lg:mr-52 text-md mt-3" v-if="experience.points.length > 0">
-      <ul class="resume-list">
+      <ul class="list-disc">
         <li
           v-for="(points, index) in experience.points"
           :key="'point-' + index"
@@ -40,3 +40,4 @@ export default {
   },
 }
 </script>
+<style scoped></style>

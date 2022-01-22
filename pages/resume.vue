@@ -59,7 +59,7 @@
           <div>
             <p class="text-6xl font-extrabold mb-4 text-resumeheading">Nixon</p>
             <p class="text-6xl font-extrabold mb-4 text-resumeheading">Pang</p>
-            <p class="text-2xl mt-8">Web/Mobile Application Developer</p>
+            <p class="text-2xl mt-8">Software Developer</p>
             <p class="my-8 lg:mr-52 text-lg">
               Engineer valued for driving high-performance accessible web
               experiences. I design quality, user-friendly and scalable products
