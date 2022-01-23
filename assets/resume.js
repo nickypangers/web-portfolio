@@ -52,7 +52,7 @@ export const resumeData = {
   education: education,
   experiences: [
     {
-      company: 'Aqumon',
+      company: 'AQUMON',
       position: 'Software Developer',
       period: 'Jan 2022 - Present',
       location: 'Quarry Bay, Hong Kong',
