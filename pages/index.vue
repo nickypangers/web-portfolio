@@ -30,9 +30,11 @@ export default {
     }
   },
   async asyncData(context) {
+    const version = context.app.$config.isDev ? 'draft' : 'published'
+    console.log('version', version)
     return context.app.$storyapi
       .get('cdn/stories/home', {
-        version: 'draft',
+        version,
       })
       .then((res) => {
         // console.log(res.data)

@@ -46,6 +46,7 @@ export default {
       'storyblok-nuxt',
       {
         accessToken: process.env.STORYBLOK_API_TOKEN,
+        isDev: process.env.IS_DEV,
         cacheProvider: 'memory',
       },
     ],
@@ -96,6 +97,7 @@ export default {
 
   publicRuntimeConfig: {
     storyblokApiToken: process.env.STORYBLOK_API_TOKEN,
+    isDev: process.env.IS_DEV,
   },
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
