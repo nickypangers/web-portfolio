@@ -23,7 +23,7 @@
         "alt": "King Fook Logo",
         "objectFit": "object-contain"
       },
-      "isDisplay": false
+      "isDisplay": true
     },
     {
       "name": "Walk Duck (App)",
