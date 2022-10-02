@@ -14,9 +14,9 @@
       "isDisplay": true
     },
     {
-      "name": "King Fook Jewellery",
-      "displayLink": "https://www.kingfook.com",
-      "link": "/work/kingfook",
+      "name": "King Fook Jewellery Eshop",
+      "displayLink": "https://eshop.kingfook.com/",
+      "link": "https://eshop.kingfook.com/",
       "image": {
         "isLocal": false,
         "link": "https://www.kingfook.com/img/common/logo4.png",

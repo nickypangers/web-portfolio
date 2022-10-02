@@ -1,5 +1,7 @@
 let coreTechnologies = [
   'Javascript',
+  'Typescript',
+  'Node.js',
   'jQuery',
   'Tailwind',
   'Bootstrap',
@@ -59,7 +61,8 @@ export const resumeData = {
       description:
         'I am working at Chaos Theory as a Full Stack Developer to develop bespoke functionality for an in-house sports news app for both Android and iOS.',
       points: [
-        'Develop bespoke functionality on the app, usually totally unique on a sport-by-sport basis',
+        'Develop bespoke functionality on the app using Flutter, usually totally unique on a sport-by-sport basis',
+        'Develop and maintain features of the backend using Firebase and Node.js',
         'Own various parts of our data pipeline that may come via web-scraping techniques',
         'Set, report and communicate OKRs for your piece of the project',
         'Own the website infrastructure, deployment pipeline and performance monitoring, including the cost profile',
