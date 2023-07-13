@@ -63,8 +63,8 @@
     },
     {
       "name": "Flutter ARB Editor",
-      "displayLink": "https://www.flutterarb.com",
-      "link": "https://www.flutterarb.com",
+      "displayLink": "https://github.com/nickypangers/flutter-arb",
+      "link": "https://github.com/nickypangers/flutter-arb",
       "image": {
         "isLocal": true,
         "link": "/images/flutterarb.webp",
